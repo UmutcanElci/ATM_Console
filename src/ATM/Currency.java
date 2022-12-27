@@ -15,9 +15,9 @@ public abstract class Currency {
         System.out.println(currency+ " ");
         return currency;
     }
-    public void searchCurrency(String currencyName){
+    public int searchCurrency(String currencyName){
        String a = currencyName.toUpperCase();
-        System.out.println(currency.get(a));
+        return currency.get(a);
     }
 
     public void addCurrency(String currencyName,Integer currencyValue) {
