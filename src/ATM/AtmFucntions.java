@@ -1,4 +1,5 @@
 package ATM;
 
-public class AtmFucntions {
+public class AtmFucntions extends Currency{
+    
 }
